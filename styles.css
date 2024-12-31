@@ -13,3 +13,36 @@
     --fonte-texto: 'Numans', sans-serif;
     --degrade-azul: linear-gradient(180deg, #000000 0%, #26327F 100%);
 }
+
+body {
+    background-color: var(--degrade-azul);
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+}
+
+main {
+    margin-top: 64px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 440px;
+    align-items: center;
+    background-color: var(--neutro);
+    padding: 56px;
+    border-radius: 16px;
+}
+
+h2 {
+    font-family: var(--fonte-titulo);
+    font-size: 24px;
+    color: var(--cor-primaria);
+    font-size: 20px;
+    line-height: 33px;
+}
